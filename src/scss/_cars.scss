@@ -46,8 +46,7 @@
   &__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    column-gap: 24px;
-    row-gap: 24px;
+    gap: 24px;
 
     @media (min-width: 780px) {
       grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -1,7 +1,7 @@
 @use "variables";
 
 .voltura__btn {
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 14px;
   border-radius: 10px;
@@ -24,7 +24,10 @@
     font-weight: 700;
 
     &:hover {
-      background: darken(variables.$voltura-primary-dark, 10%);
+      background: color.adjust(
+        variables.$voltura-primary-dark,
+        $lightness: -10%
+      );
     }
   }
 
@@ -35,7 +38,7 @@
     min-width: 135px;
 
     &:hover {
-      background: darken(variables.$voltura-accent, 4%);
+      background: color.adjust(variables.$voltura-accent, $lightness: -4%);
     }
   }
 
@@ -47,7 +50,7 @@
     padding: 12px 39px;
 
     &:hover {
-      background: darken(#fff, 12%);
+      background: color.adjust(#fff, $lightness: -12%);
       color: variables.$voltura-primary-dark;
     }
   }

@@ -6,11 +6,6 @@
   }
 }
 
-.accordion-button:not(.collapsed) {
-  background-color: variables.$voltura-gray-soft;
-  box-shadow: none;
-}
-
 .accordion-item {
   border-radius: 5px;
   margin-bottom: 16px;
@@ -22,6 +17,7 @@
 .accordion-button {
   &:not(.collapsed) {
     background-color: #fff;
+    box-shadow: none;
   }
 
   &.collapsed {

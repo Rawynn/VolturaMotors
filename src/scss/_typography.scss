@@ -2,12 +2,12 @@
 @use "mixins";
 
 :root {
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 h1 {
   @include mixins.fluid-heading(28px, 44px);
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
 }
 

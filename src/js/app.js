@@ -194,14 +194,8 @@ function openCarModal(car) {
 }
 
 function renderModalContent() {
-  const {
-    modalTitle,
-    modalVersions,
-    modalColors,
-    modalAddons,
-    modalFeatures,
-    modalGallery,
-  } = selectors;
+  const { modalTitle, modalVersions, modalColors, modalAddons, modalFeatures } =
+    selectors;
 
   if (!state.activeCar) {
     return;
