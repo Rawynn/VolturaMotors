@@ -1,0 +1,70 @@
+@use "variables";
+
+.voltura__btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.2s;
+  background-color: #fff;
+  border: variables.$voltura-border;
+  padding: 10px 14px;
+  width: auto;
+
+  &.active,
+  &:hover {
+    color: #fff;
+    background-color: variables.$voltura-primary-dark;
+  }
+
+  &--primary {
+    background-color: variables.$voltura-primary-dark;
+    color: #fff;
+    font-weight: 700;
+
+    &:hover {
+      background: darken(variables.$voltura-primary-dark, 10%);
+    }
+  }
+
+  &--secondary {
+    background-color: variables.$voltura-accent;
+    color: #fff;
+    font-weight: 700;
+    min-width: 135px;
+
+    &:hover {
+      background: darken(variables.$voltura-accent, 4%);
+    }
+  }
+
+  &--white {
+    background-color: #fff;
+    color: variables.$voltura-primary-dark;
+    border: none;
+    font-weight: 700;
+    padding: 12px 39px;
+
+    &:hover {
+      background: darken(#fff, 12%);
+      color: variables.$voltura-primary-dark;
+    }
+  }
+
+  &--small {
+    font-size: 13px;
+    padding: 5px 9px;
+  }
+
+  &--extra-small {
+    font-size: 12px;
+    padding: 1px 18px;
+    border-radius: 20px;
+  }
+
+  &--wide {
+    padding: 10.5px 30px;
+    border-radius: 15px;
+  }
+}

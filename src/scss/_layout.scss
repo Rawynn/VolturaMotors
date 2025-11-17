@@ -1,0 +1,29 @@
+@use "variables";
+
+body {
+  background-color: variables.$voltura-main-bg-color;
+  color: variables.$voltura-text-main;
+
+  @media (max-width: 1250px) {
+    .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+}
+
+// Odstępy między sekcjami - 40px
+main > section {
+  margin: 40px 0;
+}
+
+@media (max-width: 576px) {
+  main > section + section {
+    margin-top: 32px;
+  }
+}
+
+// Max szerokość contentu (navbar, sekcje, footer)
+.container {
+  max-width: 1200px;
+}

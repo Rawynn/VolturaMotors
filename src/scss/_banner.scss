@@ -1,0 +1,12 @@
+@use "variables";
+@use "mixins";
+
+.voltura-banner {
+  background-color: variables.$voltura-primary-dark;
+  border-radius: variables.$voltura-radius-lg;
+  padding: 47px 24px;
+}
+
+.banner-heading {
+  @include mixins.fluid-heading(18px, 22px);
+}

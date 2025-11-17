@@ -1,0 +1,59 @@
+@use "variables";
+@use "mixins";
+
+.voltura-hero {
+  &__content {
+    @include mixins.card-elevated;
+    padding: 28px;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    @media (width <= 822px) {
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+
+    > div {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  &__text {
+    max-width: 526px;
+    width: 100%;
+    flex-shrink: initial;
+    min-width: 400px;
+
+    @media (width <= 822px) {
+      max-width: 100%;
+      min-width: initial;
+    }
+  }
+
+  &__image {
+    max-width: 582px;
+    width: 100%;
+    padding: 0;
+    flex-shrink: initial;
+    min-width: 322px;
+    height: -webkit-fill-available;
+
+    @media (width <= 822px) {
+      max-width: 100%;
+      min-width: initial;
+    }
+
+    img {
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+
+  &__image-wrapper {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+@use "variables";
+
+@mixin card-elevated {
+  border-radius: variables.$voltura-radius-lg;
+  box-shadow: variables.$voltura-shadow-soft;
+  background-color: #fff;
+  overflow: hidden;
+  border: variables.$voltura-border;
+}
+
+@mixin fluid-heading($min, $max) {
+  font-size: clamp($min, 4vw, $max);
+}

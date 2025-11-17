@@ -1,0 +1,41 @@
+@use "variables";
+@use "mixins";
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  @include mixins.fluid-heading(28px, 44px);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  @include mixins.fluid-heading(22px, 28px);
+}
+
+.subtitle {
+  @include mixins.fluid-heading(13px, 16px);
+}
+
+h1,
+h2,
+h3 {
+  color: variables.$voltura-primary;
+}
+
+.text-label {
+  @include mixins.fluid-heading(12px, 14px);
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 0;
+  text-wrap: pretty;
+}
+
+.text-gray {
+  color: variables.$voltura-text-soft;
+}

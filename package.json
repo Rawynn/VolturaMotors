@@ -1,0 +1,30 @@
+{
+  "name": "voltura-motors",
+  "version": "1.0.0",
+  "description": "Interaktywna strona Voltura Motors - zadanie rekrutacyjne",
+  "scripts": {
+    "sass": "sass src/scss/main.scss dist/css/main.css --style=compressed --watch",
+    "sass:build": "sass src/scss/main.scss dist/css/main.css --style=compressed",
+    "minify:js": "terser src/js/app.js --compress --mangle --output dist/js/app.min.js",
+    "lint:js": "eslint src/js --ext .js",
+    "lint:js:fix": "eslint src/js --ext .js --fix",
+    "lint:styles": "stylelint \"src/scss/**/*.scss\"",
+    "lint:styles:fix": "stylelint \"src/scss/**/*.scss\" --fix",
+    "lint": "npm run lint:js && npm run lint:styles",
+
+    "build": "npm run sass:build && npm run minify:js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "sass": "^1.79.0",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard-scss": "^16.0.0",
+    "stylelint-scss": "^6.12.1",
+    "terser": "^5.44.1"
+  }
+}

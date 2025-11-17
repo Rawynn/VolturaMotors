@@ -1,0 +1,54 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Build / output ---
+dist/
+.tmp/
+.cache/
+coverage/
+
+# --- System / OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+.history/
+
+# --- Sass ---
+.sass-cache/
+*.sass-cache
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Env ---
+.env
+.env.local
+.env.*.local
+
+# --- ESLint ---
+.eslintcache
+
+# --- Stylelint ---
+.stylelintcache
+
+# --- Browserslist ---
+.browserslistrc
+browserslist-cache.json
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig

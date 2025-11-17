@@ -1,0 +1,108 @@
+[
+  {
+    "id": "zx-2025",
+    "name": "Voltura ZX 2025",
+    "bodyType": "Sedan",
+    "drivetrain": "AWD",
+    "rangeKm": 400,
+    "basePrice": 100999,
+    "heroImage": "./src/assets/images/car-preview1.png",
+    "gallery": [
+      "./src/assets/images/car-photo1.png",
+      "./src/assets/images/car-photo2.png",
+      "./src/assets/images/car-photo3.png",
+      "./src/assets/images/car-photo4.png"
+    ],
+    "versions": [
+      { "id": "basic", "label": "Podstawowa", "priceDelta": 0 },
+      { "id": "sport", "label": "Sport", "priceDelta": 9000 },
+      { "id": "performance", "label": "Performance", "priceDelta": 18000 }
+    ],
+    "colors": [
+      { "id": "emerald", "label": "Zielony", "hex": "#067d55" },
+      { "id": "pearl", "label": "Perłowy biały", "hex": "#f5f5f5" },
+      { "id": "graphite", "label": "Grafitowy", "hex": "#3b3b3b" }
+    ],
+    "addons": [
+      { "id": "winter-wheels", "label": "Koła zimowe", "priceDelta": 3000 },
+      { "id": "accessories", "label": "Akcesoria", "priceDelta": 2000 }
+    ],
+    "features": [
+      { "label": "0-100 km/h", "value": "5,8 s" },
+      { "label": "Maksymalna prędkość", "value": "210 km/h" },
+      { "label": "Ładowanie", "value": "120 kW DC" },
+      { "label": "Pojemność bagażnika", "value": "520 L" },
+      { "label": "Gwarancja", "value": "5 lat" }
+    ]
+  },
+  {
+    "id": "px-2025",
+    "name": "Voltura PX 2025",
+    "bodyType": "SUV",
+    "drivetrain": "AWD",
+    "rangeKm": 450,
+    "basePrice": 120999,
+    "heroImage": "./src/assets/images/car-preview2.png",
+    "gallery": [
+      "./src/assets/images/car-photo1.png",
+      "./src/assets/images/car-photo2.png",
+      "./src/assets/images/car-photo3.png",
+      "./src/assets/images/car-photo4.png"
+    ],
+    "versions": [
+      { "id": "basic", "label": "Podstawowa", "priceDelta": 0 },
+      { "id": "sport", "label": "Sport", "priceDelta": 12000 },
+      { "id": "performance", "label": "Performance", "priceDelta": 22000 }
+    ],
+    "colors": [
+      { "id": "emerald", "label": "Zielony", "hex": "#067d55" },
+      { "id": "midnight", "label": "Granatowy", "hex": "#041b3b" },
+      { "id": "silver", "label": "Srebrny", "hex": "#cfd3dc" }
+    ],
+    "addons": [
+      { "id": "winter-wheels", "label": "Koła zimowe", "priceDelta": 3000 },
+      { "id": "accessories", "label": "Akcesoria", "priceDelta": 2000 }
+    ],
+    "features": [
+      { "label": "0-100 km/h", "value": "6,1 s" },
+      { "label": "Maksymalna prędkość", "value": "200 km/h" },
+      { "label": "Maksymalny zasięg", "value": "450 km" },
+      { "label": "Gwarancja", "value": "5 lat" }
+    ]
+  },
+  {
+    "id": "sx-2025",
+    "name": "Voltura SX 2025",
+    "bodyType": "Hatchback",
+    "drivetrain": "RWD",
+    "rangeKm": 300,
+    "basePrice": 98999,
+    "heroImage": "./src/assets/images/car-preview2.png",
+    "gallery": [
+      "./src/assets/images/car-photo1.png",
+      "./src/assets/images/car-photo2.png",
+      "./src/assets/images/car-photo3.png",
+      "./src/assets/images/car-photo4.png"
+    ],
+    "versions": [
+      { "id": "basic", "label": "Podstawowa", "priceDelta": 0 },
+      { "id": "sport", "label": "Sport", "priceDelta": 6000 },
+      { "id": "performance", "label": "Performance", "priceDelta": 14000 }
+    ],
+    "colors": [
+      { "id": "emerald", "label": "Zielony", "hex": "#067d55" },
+      { "id": "sunrise", "label": "Pomarańczowy", "hex": "#ff7a3c" },
+      { "id": "white", "label": "Biały", "hex": "#d0d0d0d0" }
+    ],
+    "addons": [
+      { "id": "winter-wheels", "label": "Koła zimowe", "priceDelta": 3000 },
+      { "id": "accessories", "label": "Akcesoria", "priceDelta": 2000 }
+    ],
+    "features": [
+      { "label": "0-100 km/h", "value": "6,9 s" },
+      { "label": "Maksymalna prędkość", "value": "190 km/h" },
+      { "label": "Zasięg w mieście", "value": "350 km" },
+      { "label": "Gwarancja", "value": "5 lat" }
+    ]
+  }
+]

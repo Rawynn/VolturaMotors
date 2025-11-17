@@ -1,0 +1,31 @@
+@use "variables";
+
+.voltura-accordion {
+  .accordion-button {
+    font-weight: 500;
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: variables.$voltura-gray-soft;
+  box-shadow: none;
+}
+
+.accordion-item {
+  border-radius: 5px;
+  margin-bottom: 16px;
+  &:has(.accordion-button:not(.collapsed)) {
+    border: 1px solid variables.$voltura-text-soft;
+  }
+}
+
+.accordion-button {
+  &:not(.collapsed) {
+    background-color: #fff;
+  }
+
+  &.collapsed {
+    background-color: variables.$voltura-gray-soft;
+    border-radius: 5px;
+  }
+}

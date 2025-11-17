@@ -1,0 +1,20 @@
+// Główny plik SASS
+
+@use "variables";
+@use "mixins";
+
+// Bootstrap
+@use "../../node_modules/bootstrap/scss/bootstrap" as *;
+
+// Layout & komponenty
+@use "layout";
+@use "navbar";
+@use "hero";
+@use "cars";
+@use "banner";
+@use "accordion";
+@use "cta";
+@use "footer";
+@use "modal";
+@use "typography";
+@use "buttons";

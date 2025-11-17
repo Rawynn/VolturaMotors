@@ -1,0 +1,29 @@
+@use "variables";
+
+.voltura-navbar {
+  height: 72px;
+
+  &__logo {
+    display: inline-flex;
+    border-radius: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    color: variables.$voltura-primary;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+
+    @media (width <= 430px) {
+      span {
+        display: none;
+      }
+    }
+  }
+
+  .voltura-logo {
+    width: 41px;
+    height: auto;
+    display: block;
+  }
+}
